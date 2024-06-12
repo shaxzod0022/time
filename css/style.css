@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    margin: 15px auto;
+    width: 700px;
+    height: 700px;
+    background-image: url("../img/photo_2024-03-11_11-39-21.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center; */
+}
+.circle{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-image: url(../img/photo_2024-03-11_11-39-21.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.circle > div{
+    position: absolute;
+    transform-origin: bottom;
+    transition: all 0.5s linear;
+    width: 5px;
+    transform: rotate(90deg);
+}
+.soat{
+    top: 150px;
+    height: 200px;
+    background-color: black;
+}
+.minut{
+    top: 100px;
+    height: 250px;
+    background-color: blue;
+}
+.sekund{
+    top: 50px;
+    height: 300px;
+    background-color: red;
+}
